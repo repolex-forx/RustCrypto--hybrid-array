@@ -34,6 +34,90 @@
       ],
       "ast": [
         "aggregate/ast/09310c55b75e2cd408951c7e2e86dba16c63fc68/chunk-001.nq.gz"
+      ],
+      "lsp": "aggregate/lsp/09310c55b75e2cd408951c7e2e86dba16c63fc68.nq.gz",
+      "dependencies": [
+        {
+          "packageName": "typenum",
+          "ecosystem": "CARGO",
+          "version": "1.20",
+          "githubOrg": "paholg",
+          "githubRepo": "typenum",
+          "githubUrl": "https://github.com/paholg/typenum",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "arbitrary",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "rust-fuzz",
+          "githubRepo": "arbitrary",
+          "githubUrl": "https://github.com/rust-fuzz/arbitrary/",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "bytemuck",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "Lokathor",
+          "githubRepo": "bytemuck",
+          "githubUrl": "https://github.com/Lokathor/bytemuck",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "ctutils",
+          "ecosystem": "CARGO",
+          "version": "0.4",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "utils",
+          "githubUrl": "https://github.com/RustCrypto/utils",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "serde-rs",
+          "githubRepo": "serde",
+          "githubUrl": "https://github.com/serde-rs/serde",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "subtle",
+          "ecosystem": "CARGO",
+          "version": "2",
+          "githubOrg": "dalek-cryptography",
+          "githubRepo": "subtle",
+          "githubUrl": "https://github.com/dalek-cryptography/subtle",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "zeroize",
+          "ecosystem": "CARGO",
+          "version": "1.8",
+          "githubOrg": "RustCrypto",
+          "githubRepo": "utils",
+          "githubUrl": "https://github.com/RustCrypto/utils",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "zerocopy",
+          "ecosystem": "CARGO",
+          "version": "0.8",
+          "githubOrg": "google",
+          "githubRepo": "zerocopy",
+          "githubUrl": "https://github.com/google/zerocopy",
+          "source": "build_file:Cargo.toml"
+        },
+        {
+          "packageName": "serde_json",
+          "ecosystem": "CARGO",
+          "version": "1",
+          "githubOrg": "serde-rs",
+          "githubRepo": "json",
+          "githubUrl": "https://github.com/serde-rs/json",
+          "source": "build_file:Cargo.toml"
+        }
       ]
     }
   ],
