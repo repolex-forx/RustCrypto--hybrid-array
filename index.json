@@ -1,0 +1,11 @@
+{
+  "org": "RustCrypto",
+  "repo": "hybrid-array",
+  "versions": [
+    {
+      "commit": "09310c55b75e2cd408951c7e2e86dba16c63fc68",
+      "tag": "v0.4.15",
+      "parsed_at": "2026-11-22T11:35:11.999655+00:00"
+    }
+  ]
+}
